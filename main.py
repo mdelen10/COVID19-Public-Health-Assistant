@@ -143,7 +143,7 @@ def start():
                 color=yellow
                 if num_waited>wait_cycles:
                     num_waited = 0
-                    audio = ["detect.mp3", "refrain.mp3"]
+                    audio = ["handsoff.mp3", "refrain.mp3"]
                     r = random.randint(0,len(audio)-1)
                     choice = audio[r]
 
